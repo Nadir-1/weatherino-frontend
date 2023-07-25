@@ -1,0 +1,26 @@
+@import '../../styles/variables';
+@import '../../styles/mixin';
+
+.today {
+    flex: 1 1;
+
+    .ti {
+        text-align: center;
+    }
+
+    .toBox {
+        margin-top: $v2px;
+        width: 100%;
+        @include flexCtr;
+
+        .icon {
+            border-right: 1px solid $light;
+            padding-right: $v2px;
+        }
+
+        .Tweather {
+            padding-left: $v2px;
+        }
+    }
+
+}

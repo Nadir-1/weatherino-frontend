@@ -1,0 +1,6 @@
+@mixin flexCtr($dir: row, $j: center, $a: center) {
+    display: flex;
+    justify-content: $j;
+    align-items: $a;
+    flex-direction: $dir;
+}

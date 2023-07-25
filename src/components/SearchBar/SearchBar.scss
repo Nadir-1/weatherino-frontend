@@ -1,0 +1,35 @@
+@import '../../styles/variables';
+@import '../../styles/mixin';
+
+.search-box {
+    height: 40px;
+    width: 250px;
+    padding: $v2px;
+    border-radius: 40px;
+    background-Color: $dark;
+    position: relative;
+    margin-top: $v1px;
+
+    .search-btn {
+        position: absolute;
+        right: 10px;
+        top: 10px;
+        width: $v3px;
+        height: $v3px;
+        border-radius: 50%;
+        background-Color: $dark;
+        border: none;
+        cursor: pointer;
+    }
+
+    .inp-search {
+        border: none;
+        background: none;
+        outline: none;
+        float: left;
+        padding: 0;
+        font-size: 16px;
+        line-height: $v3px;
+        color: $light;
+    }
+}

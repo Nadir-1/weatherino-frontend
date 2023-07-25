@@ -1,0 +1,24 @@
+@import './mixin';
+@import './variables';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body,
+#root {
+  min-height: 100%;
+}
+
+#root {
+  @include flexCtr;
+  background-color: $dark;
+  height: fit-content;
+  min-height: 100vh;
+}
